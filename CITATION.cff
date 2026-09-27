@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+authors:
+  - family-names: "Formuli"
+    given-names: "Abdullah"
+    email: "authrainmedia@gmail.com"
+    affiliation: "https://github.com/authrain-cloud-abdullahformuli"
+title: "Claude Game Dev: Complete AI-Assisted Game Development Workflows & Systems for Claude Code"
+version: 1.0.0
+date-released: 2026-09-26
+url: "https://github.com/authrain-cloud-abdullahformuli/claude-game-dev"
+license: MIT

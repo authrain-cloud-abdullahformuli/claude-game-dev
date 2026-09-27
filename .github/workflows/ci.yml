@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f tools/meta-prompting-framework/requirements.txt ]; then
+            pip install -r tools/meta-prompting-framework/requirements.txt
+          fi
+
+      - name: Run Meta-Prompting Engine Validation
+        working-directory: tools/meta-prompting-framework
+        run: |
+          python validate_implementation.py

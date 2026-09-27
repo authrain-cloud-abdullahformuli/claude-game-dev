@@ -1,0 +1,26 @@
+{
+  "name": "claude-game-dev",
+  "version": "1.0.0",
+  "description": "Comprehensive game development patterns, prompts, and architectures for Claude Code.",
+  "author": "Abdullah Formuli <authrainmedia@gmail.com> (https://github.com/authrain-cloud-abdullahformuli)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/authrain-cloud-abdullahformuli/claude-game-dev.git"
+  },
+  "homepage": "https://github.com/authrain-cloud-abdullahformuli/claude-game-dev#readme",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "game-development",
+    "game-dev",
+    "ai-gamedev",
+    "anthropic",
+    "prompts",
+    "meta-prompting",
+    "game-engines",
+    "godot",
+    "unity",
+    "threejs",
+    "pygame"
+  ]
+}
